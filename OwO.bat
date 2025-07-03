@@ -1,4 +1,3 @@
-I want this for OwO.bat
 
 @echo off
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
